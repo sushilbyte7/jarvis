@@ -40,7 +40,7 @@ module.exports = {
   RENDER_APP_NAME: process.env.RENDER_APP_NAME,
   BRAINSHOP: process.env.BRAINSHOP || '172372,nbjE0YAlyw3cpoMl',
   TGTOKEN: "bot891038791:AAHWB1dQd-vi0IbH2NjKYUk-hqQ8rQuzPD4",
-  STICKER_PACKNAME: process.env.STICKER_PACKNAME || 'ᴊᴀʀᴠɪꜱ;ᴡᴀʙᴏᴛ',
+  STICKER_PACKNAME: process.env.STICKER_PACKNAME || 'ᴘᴏᴏᴋɪᴇ🎀;ʙᴏᴛ',
   CALL_BLOCK: toBool(process.env.CALL_BLOCK) || false,
   SAVE_STATUS: toBool(process.env.SAVE_STATUS) || false,
   STATUS_VIEW: process.env.STATUS_VIEW || "true",
@@ -58,7 +58,7 @@ module.exports = {
   LOG_MSG: toBool(process.env.LOG_MSG) || true,
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME || '',
   HEROKU_API_KEY: process.env.HEROKU_API_KEY || '',
-  BOT_INFO: process.env.BOT_INFO || 'ᴊᴀʀᴠɪꜱ;ʟᴏᴋɪ-xᴇʀ;https://graph.org/file/1506e5842805b0968c5cf.mp4',
+  BOT_INFO: process.env.BOT_INFO || 'ᴘᴏᴏᴋɪᴇ🎀;sᴜs;https://cdn.ironman.my.id/i/xti2dx.mp4',
   WORK_TYPE: process.env.WORK_TYPE || 'public',
   DATABASE: DATABASE_URL === "./database.db" ? new Sequelize({ dialect: "sqlite", storage: DATABASE_URL, logging: false }) : new Sequelize(DATABASE_URL, {dialect: "postgres", ssl: true, protocol: "postgres", dialectOptions: { native: true, ssl: { require: true, rejectUnauthorized: false },}, logging: false }),
 };
